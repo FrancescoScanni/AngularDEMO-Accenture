@@ -1,0 +1,55 @@
+/* Titolo più elegante */
+h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Card più moderna */
+.card-auto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Centra il contenuto */
+  width: 260px;
+  min-height: 200px;
+  background-color: #fff8f0; /* tonalità calda simile ad antiquewhite */
+  border-radius: 20px;
+  padding: 20px 25px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: solid 2px black;
+}
+
+/* Hover effetto */
+.card-auto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Paragrafo interno */
+.card-auto p {
+  margin: 5px 0;
+  color: #555;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+/* Bottone dentro la card (opzionale) */
+.card-auto button {
+  margin-top: 15px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 12px;
+  background-color: #ff7f50; /* arancione caldo */
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-auto button:hover {
+  background-color: #ff5722;
+}

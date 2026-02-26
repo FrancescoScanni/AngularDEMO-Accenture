@@ -1,0 +1,26 @@
+Creare card per annuncio vendita auto
+
+LEZIONE 1
+
+1) Genera interface Automobile
+2) Crea cartella interfaces
+3) Al suo interno creare un nuovo file chiamato automobili.interfcaes.ts
+4) Definire al suo interno l'interfaccia: 
+    id,
+    targa,
+    marca,
+    modello,
+    prezzo,
+    foto
+
+5) Genra componente per targa chiamata CardAutomobile con "ng g c CardAutomobile".
+    al suo interno generare card con dati leggibili, usa interface e crea un esempio coi dati
+
+
+    ///////////////////////////////////
+
+
+    LEZIONE 2
+
+    
+    
